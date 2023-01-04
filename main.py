@@ -1,5 +1,5 @@
-"""The Telebot is a practical library for creating telegram bots
-   The json module allows you to encode and decode data in a convenient format."""
+"""
+ The json module allows you to encode and decode data in a convenient format."""
 import json
 import telebot
 import requests
