@@ -1,1 +1,1 @@
-token = "BOT_API_KEY" #Put your API key from telegram BotFatherr
+token = "BOT_API_KEY" #Put your API key from telegram BotFather
