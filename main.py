@@ -137,5 +137,6 @@ def get_price(message):
 
 
 if __name__ == '__main__':
+    
     # get_data()
     bot.polling(none_stop=True)
