@@ -1,5 +1,5 @@
-"""
- The json module allows you to encode and decode data in a convenient format."""
+"""The json module allows you to encode and decode data in a convenient format."""
+
 import json
 import telebot
 import requests
@@ -21,7 +21,7 @@ headers = {
 
 # get price of crypto from API
 def get_data():
-    """finction where we write our parameters and parsing json base from coinmarketcap api url"""
+    """function where we write our parameters and parsing json base from coinmarketcap api url"""
     parameters = {
         'start': 1,
         'limit': 5000,
@@ -138,6 +138,5 @@ def get_price(message):
 
 
 if __name__ == '__main__':
-    
     # get_data()
     bot.polling(none_stop=True)
