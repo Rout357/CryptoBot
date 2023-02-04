@@ -6,7 +6,7 @@ import requests
 from telebot import types
 from py_currency_converter import convert
 from requests import Session
-from auth_data import token
+from Settings import token, coin_api
 
 
 bot = telebot.TeleBot(token)
@@ -15,7 +15,7 @@ URL = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
 
 headers = {
     'Accepts': 'application/json',
-    'X-CMC_PRO_API_KEY': 'YOUR_API_KEY',
+    'X-CMC_PRO_API_KEY': coin_api,
 }
 
 
